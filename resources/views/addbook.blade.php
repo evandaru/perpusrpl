@@ -16,6 +16,7 @@ $angka = 1;
 
 <body>
     <div class="container">
+        <a href="/login">Log out</a>
         <h1>Selamat datang 👋🏻</h1>
 
         <form method="POST" action="{{ url('add') }}">

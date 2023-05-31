@@ -43,6 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/pinjaman">My Buku</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Log Out</a>
+                </li>
 
             </ul>
         </div>
@@ -95,7 +98,7 @@
                                     <a href="/pinjaman/{{ $pinjams->id }}/{{ $pinjams->nama_buku }}/{{ $pinjams->gambar_buku }}/{{ $pinjams->penerbit_buku }}/{{ $pinjams->pengarang_buku }}/{{ $pinjams->isbn }}/baca"
                                         class="text-info text-sm icon-move-right">Baca
                                         <i class="fas fa-arrow-right text-xs ms-1"></i>
-                                    </a>    
+                                    </a>
                                     <a href="/pinjaman/{{ $pinjams->id }}"
                                         class="text-info text-sm icon-move-right">Hapus
                                         <i class="fas fa-arrow-right text-xs ms-1"></i>
