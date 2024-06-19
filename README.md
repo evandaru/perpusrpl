@@ -1,9 +1,24 @@
-# ini adalah sapi dan ikan adalah kambing 
+# Web Perpus RPL
 
-halo guys aku adalah sapi dan manusia yang anu
+Proyek ini adalah website perpustakaan yang dikerjakan sebagai bagian dari Ujian Tengah Semester (UTS). Website ini dibangun menggunakan **Laravel** dan menggunakan **MySQL** sebagai database.
 
+## Deskripsi Proyek
 
-| nama | skill |
-| ---- | ----- |
-| ikan | turu  |
-| sapi | ayam  |
+Website ini memiliki fitur CRUD (Create, Read, Update, Delete) sederhana untuk mengelola data buku perpustakaan. Dengan fitur ini, pengguna dapat menambah, melihat, memperbarui, dan menghapus data buku dengan mudah.
+
+## Role Pengguna
+
+Terdapat dua jenis pengguna yang dapat mengakses website ini:
+
+- **Admin**
+  - Email: admin@gmail.com
+  - Password: admin
+
+- **User**
+  - Email: lia@gmail.com
+  - Password: lia
+
+## Teknologi yang Digunakan
+
+- **Framework**: Laravel
+- **Database**: MySQL
